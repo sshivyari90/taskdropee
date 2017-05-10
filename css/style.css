@@ -1,0 +1,28 @@
+body {
+    position: relative;
+    background: #fff;
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+h1 {
+    margin: 0 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+h2 {
+	font-size: 24px;
+}
+.wrapper {
+    width: 1000px;
+    min-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+.bg-r {
+    background: #fcf7f7!important;
+    padding: 3% 3%;
+}

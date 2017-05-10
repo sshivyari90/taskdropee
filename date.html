@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Date Duration Calculator: Days between two dates</title>
+        <meta name=description content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="reserve_form">
+            <div class="container">
+                <div class="wrapper">
+                    <h1>Calculate Duration Between Two Dates</h1>
+                    <form class="bg-r">
+                        <div class="row">
+                            <div class="col-md-4 start-date">
+                                <h2>Start Date</h2>
+                                <p>
+                                     <input type="date" class="textbox" id="pick_date" name="pickup_date" onchange="cal()"/>
+                                </p>
+                            </div>
+                            <div class="col-md-4 end-date">
+                                <h2>End Date</h2>
+                                <p>
+                                    <input type="date" class="textbox" id="drop_date" name="dropoff_date" onchange="cal()"/>
+                                </p>
+                            </div>
+                            <div class="col-md-4 numdays">
+                                <h2>Number of Days</h2>
+                                <input type="text" class="textbox" id="numdays2" name="numdays"/>
+                            </div>
+                        </div>                       
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
